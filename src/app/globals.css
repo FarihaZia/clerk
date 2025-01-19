@@ -7,15 +7,31 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafb;
 }
+
+header {
+  background-color: #ffffff;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+main {
+  margin-top: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
